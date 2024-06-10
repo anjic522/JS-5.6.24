@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img id="1" src="./HD-wallpaper-allu-arjun-allu-arjun.jpg" width="400px" height="300px" style="border:2px solid blue" alt="">
+    </div>
+    <img id="2"  src="./food.jpeg" width="400px" height="300px" alt="">
+    <img id="3" src="./plants.jpeg" width="400px" height="300px" alt="">
+    <script>
+var id1=document.getElementById("1");
+var id2=document.getElementById("2");
+id2.addEventListener("click",fn1);
+function fn1(){
+    id1.setAttribute("src","./food.jpeg")
+}
+
+
+
+
+
+
+var id3=document.getElementById("3");
+id3.addEventListener("click",fn2);
+function fn2(){
+    id1.setAttribute("src","./plants.jpeg")
+}
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

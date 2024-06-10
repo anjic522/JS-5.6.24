@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: brown;">Hello people can you select any one of this:</h1>
+    <input type="radio" style="font-size:50px" name="img" id="1" onclick="fun1()">
+    <label for="1" style="font-size:50px" >Food</label>
+    <br>
+    <input type="radio"  name="img" id="2" onclick="fun2()">
+    <label for="2" style=" font-size:50px">Garden</label>
+    
+    <br>
+    <input type="radio" style="font-size:50px" name="img" id="3" onclick="fun3()">
+    <label for="3" style="font-size:50px" >Industry</label>
+    <br>
+    <input type="radio"  name="img" id="4" onclick="fun4()">
+    <label for="4" style=" font-size:50px">Love</label>
+    
+    <br>
+    
+    <input type="radio"  name="img" id="5" onclick="fun5()">
+    <label for="5" style=" font-size:50px">Money</label>
+    
+    <br>
+    <input type="radio" style="font-size:50px" name="img" id="6" onclick="fun6()">
+    <label for="6" style="font-size:50px" >Nature</label>
+    <br>
+    <input type="radio"  name="img" id="7" onclick="fun7()">
+    <label for="7" style=" font-size:50px">Plants</label>
+    
+    <br>
+    
+     <center>
+    <image id="img" ></image>
+</center>
+
+   
+        <script>
+    
+    let img1=document.getElementById("img")
+    
+    function fun1(){
+        img1.setAttribute("src","./food.jpeg");
+    
+    }
+    
+    function fun2(){
+        img1.setAttribute("src","./garden.jpeg"   )
+    
+    }
+
+    function fun3(){
+        img1.setAttribute("src","./industry.jpeg");
+    
+    }
+    
+    function fun4(){
+        img1.setAttribute("src","./love.jpeg"   )
+    
+    }
+    
+    function fun5(){
+        img1.setAttribute("src","./money.jpeg"   )
+    
+    }
+
+    function fun6(){
+        img1.setAttribute("src","./nature.jpeg");
+    
+    }
+    
+     function fun7(){
+        img1.setAttribute("src","./plants.jpeg"   )
+    
+    }
+    
+    
+    
+    
+        </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 style="font-size: 4rem;">Hi How Are You</h1>
+        <p style="font-size: 3rem;">Hello Iam good</p>
+        </center>
+    
+    
+    
+        <h1><u>come here:</u></h1>
+        <h2>1. when you click  first line   (single click), then second will change color</h2>
+        <h2>2.when you click  first line (double click), then second will turns into original color</h2>
+    
+    <script>
+        var f=document.getElementsByTagName("h1")
+f[0].addEventListener("click",hello)
+function hello(){
+    var ff=document.getElementsByTagName("p")
+    ff[0].style.color="green"
+}
+
+var f=document.getElementsByTagName("h1");
+f[0].addEventListener("dblclick",fun);
+function fun(){
+    var ff=document.getElementsByTagName("p")
+    ff[0].style.color="black"
+
+}
+    </script>
+</body>
+</html>
